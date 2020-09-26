@@ -1,5 +1,8 @@
 .myhome {
   background-image: url('https://buildingalifestyle.com/wp-content/uploads/2014/09/Santa-Cruz_Front-Exterior.jpg');
+  background-repeat: no-repeat;
+  background-position: center 100px;
+  background-attachment: fixed;
 }
 .myProfile{
   width: -moz-available;
