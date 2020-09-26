@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-large side_color back_color"
+  onclick="w3_close()">Close &times;</button>
+  <a href="Address.html" class="w3-bar-item side_color">Address</a>
+  <a href="Objective.html" class="w3-bar-item side_color">Objective</a>
+  <a href="Personal_details.html" class="w3-bar-item side_color">Personal Summary and Core Strength</a>
+  <a href="Skills.html" class="w3-bar-item side_color">Skills</a>
+  <a href="Experience.html" class="w3-bar-item side_color">Experience</a>
+  <a href="Certification.html" class="w3-bar-item side_color">Certification</a>
+  <a href="Education.html" class="w3-bar-item side_color">Education</a>
+
+</div>
+
+<div id="main">
+
+<div class="Heading">
+	<h1 class="profile"> My Profile
+  <button id="openNav" class="button_pos side_color Heading w3-xlarge" onclick="w3_open()">&#9776;</button>
+ </h1>
+</div>
+</div>
+<img src="https://img1.sendscraps.com/se/135/047.gif" class="myProfile">
+<p style="text-align: center;">&copy; Copyright 2020 by Jeevitha Kulal</p>
+</body>
+</html>

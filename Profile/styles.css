@@ -1,0 +1,98 @@
+.myhome {
+  background-image: url('https://buildingalifestyle.com/wp-content/uploads/2014/09/Santa-Cruz_Front-Exterior.jpg');
+}
+.myProfile{
+  width: -moz-available;
+  height: auto;
+}
+.profile{
+	margin: 0px 0;
+	text-align:center;
+	color:#fff
+}
+.address >p{
+			margin-top: 0px;
+        	margin-bottom: 0px;
+			text-align:center;
+			font-size: 20px;
+			background-color:#adddac;
+}
+.side_color:hover{color:#000;background-color:#40823e}
+.back_color{background-color:#5CBB59 !important;}
+.button_pos{
+	 float:right;
+	 height: 50px; 
+	 width: 100px;
+	 font-size: 20px;
+}
+#openNav{
+	 float:left;
+	 border: none;
+}
+.w3-sidebar{
+	background-color:#8bcf88 !important;
+}
+.Heading{
+	background-color:#106f0c !important;
+}
+.object >p{
+	text-align: center;
+	background-color:#adddac;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-style:italic;
+}
+.objective{
+	background-image: url('https://www.fengoffice.com/web/inc/img/Nuevo_Estilo/target.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;	
+}
+.experience{
+	background-image: url('https://chelseakrost.com/wp-content/uploads/2014/09/Experience-2-revised.png');
+	background-repeat: no-repeat;
+	background-position: right 100px;
+    background-size: 800px 450px;	
+}
+.certification{
+	background-image: url('https://www.qsl.net/g0yce/images/work-in-progress_m40ig06h.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.education{
+	background-image: url('http://www.impacthiringsolutions.com/vistageleadershipcommunity/wp-content/uploads/2011/03/book_worm_reading_book_hg_wht.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.stength{
+	background-image: url('http://clipart-library.com/data_images/38406.jpg');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 400px 400px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #bde3bc;
+}
+
+.tech-skill{
+	background-image: url('https://static.businessworld.in/article/article_extra_large_image/4841483624698Modi-skill-India-Mission-e1459840883969.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+}
